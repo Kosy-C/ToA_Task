@@ -9,7 +9,7 @@ export const GenerateOTP = ()=>{
 
 
 const transport = nodemailer.createTransport({
-    service: "gmail" /*service and host are the same thing */,
+    service: "gmail",
     auth: {
       user: GMAIL_USER,
       pass: GMAIL_PASS,
